@@ -197,7 +197,7 @@ img.first {
 li.main-nav-links {
 /*   border: 1px solid red;*/   
   display:inline;
-  margin-left: 20px;
+  margin-left: 15px;
   letter-spacing: 0.06em;
 }
 
@@ -219,7 +219,7 @@ li.section-nav-list {
 
 .section-nav {
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 10px;
   border-bottom: 1px solid #E0E0E0;
   font-size: 18px;
 }
