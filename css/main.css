@@ -115,7 +115,15 @@ body {
    For homepage only
    ========================================================================== */ 
 
+@import url(//fonts.googleapis.com/css?family=Oswald:300,500);
 
+.gfont p {
+  font-family: Oswald;
+}
+
+p.gfont {
+  font-family: Oswald;
+}
 
 
 /* ==========================================================================
