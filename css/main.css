@@ -125,6 +125,34 @@ p.gfont {
   font-family: Oswald;
 }
 
+.page-title h1 { 
+ font-family: 'Oswald', Helvetica, Arial, sans-serif;
+  font-size:42px;
+  color: black;
+  letter-spacing: 0.05em;
+  text-transform:uppercase;
+  text-align: center;
+  border-top: 1px solid #E0E0E0;
+  padding: 20px 0 0px 0;
+  margin: 0 0 0px 0;
+  }
+
+.row {
+ /* border: 1px solid red; */
+  width: 960px;
+  float: left;
+  margin-bottom: 35px;
+}
+
+.row img {
+ margin-left: 15px;
+}
+
+img.first {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
 
 /* ==========================================================================
    General CSS
@@ -133,8 +161,8 @@ p.gfont {
   #wrapper { 
   width:870px; 
   margin:0 auto; 
-   /*border: 1px solid red;
-  border-left: #46314e double thick;
+ /* border: 1px solid red; 
+ border-left: #46314e double thick;
   border-right: #46314e double thick;*/
 /* background-color: #FAF2F0*/
   }
@@ -203,12 +231,6 @@ li.section-nav-list {
 }
 
 
-
-#gallery img {
-  border: 1px solid #E0E0E0;
-}
-
-
 /*a {
     color: #B8B8B8;
 -webkit-transition: color 0.25s ease-out;
@@ -245,8 +267,7 @@ a:active {
     transition: color 0.25s ease-out;
 }
 
-  
-.page-title h1 { 
+.page-head h1 { 
  font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-size:42px;
   color: black;
@@ -254,10 +275,12 @@ a:active {
   text-transform:uppercase;
   text-align: center;
   border-top: 1px solid #E0E0E0;
-  padding: 20px 0 0px 0;
-  margin: 0 0 0px 0;
+  border-bottom: 1px solid #E0E0E0;
+  padding-top: 20px;
+  margin: 0px;
+  padding-bottom: 30px;
   }
-
+  
 .page-heading h1 { 
  font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-size:42px;
@@ -294,20 +317,10 @@ padding-bottom: 30px;
     } 
 
 
-.row {
-/*  border: 1px solid red;*/ 
-  width: 960px;
-  float: left;
-  margin-bottom: 25px;
-}
+/* #gallery img {
+  border: 1px solid #E0E0E0;
+} */
 
-.row img {
- padding-left: 15px;
-}
-
-img.first {
-  padding-left: 0px;
-}
 
 #footer {
   text-align: center;
