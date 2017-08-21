@@ -202,7 +202,6 @@ img.first {
 
 }
 
-
 li.main-nav-links {
 /*   border: 1px solid red;*/   
   display:inline;
@@ -213,9 +212,11 @@ li.main-nav-links {
 
 li.section-nav-list {
   display:inline;
-  margin-right: 20px;
+  margin-right: 10px;
   letter-spacing: 0.06em;
+  color: #0033FF;
 }
+
 
 /*#clicked a {
   color: #F80000;
@@ -276,6 +277,7 @@ a:active {
     transition: color 0.25s ease-out;
 }
 
+
 .page-head h1 { 
  font-family: 'Oswald', Helvetica, Arial, sans-serif;
   font-size:42px;
@@ -328,13 +330,17 @@ a:active {
 
 #book-gallery img {
 margin-left: 10px;
-padding-bottom: 30px;
+margin-bottom: 30px;
 }
 
 #book-gallery {
     width: 870px;
     text-align: center;
     } 
+
+.book-border img {
+  border: 1px solid #A8A8A8;
+}
 
 
 /* #gallery img {
