@@ -329,17 +329,16 @@ padding-bottom: 30px;
   font-size: 11px;
 }
 
-/*
- * For Resume */
+/* For Resume */
  #res_wrapper{
-  width: 750px;
-  /*border: 1px solid red;*/
+  width: 800px;
+ /* border: 1px solid red;*/
   margin-top: -10px;
  }
 
  h5 {
   font-family: 'Oswald', Helvetica, Arial, sans-serif;
-  font-size:17px;
+  font-size:18px;
   color: black;
   letter-spacing: 0.05em;
   text-transform:uppercase;
@@ -349,11 +348,16 @@ padding-bottom: 30px;
  }
 
 
-#res_wrapper p {
+#res_wrapper {
  font-size: 15px;
- line-height: 1.85;
- font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+ line-height: 1.55em;
+ font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
 }
+
+#res_wrapper ul {
+ margin-left: -23px; 
+}
+
 
 .details p {
   font-size: 15px;
@@ -370,12 +374,12 @@ padding-bottom: 30px;
   text-transform: uppercase;
   line-height: 1.5;
   font-size: 15px;
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
   font-weight: bold;
 }
 
 #res_wrapper .degree {
-  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
   font-weight: bold;
   margin-bottom: -15px;
 }
@@ -394,9 +398,9 @@ padding-bottom: 30px;
  }
 
  #contact_info p {
-   font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+   font-family: Arial,Helvetica Neue,Helvetica,sans-serif; 
     line-height: 2;
-    font-size: 17px;
+    font-size: 16px;
  }
 
 
