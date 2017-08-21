@@ -137,6 +137,15 @@ p.gfont {
   margin: 0 0 0px 0;
   }
 
+
+  .page-title img { 
+  text-align: center;
+  border-top: 1px solid #E0E0E0;
+  padding: 25px 0 0px 0;
+  margin: 0 0 0px 0;
+  }
+
+
 .row {
  /* border: 1px solid red; */
   width: 960px;
@@ -280,6 +289,17 @@ a:active {
   margin: 0px;
   padding-bottom: 30px;
   }
+
+
+.page-head img { 
+  text-align: center;
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+  padding-top: 20px;
+  margin: 0px;
+  padding-bottom: 25px;
+  }
+
   
 .page-heading h1 { 
  font-family: 'Oswald', Helvetica, Arial, sans-serif;
