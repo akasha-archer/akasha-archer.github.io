@@ -429,6 +429,17 @@ margin-bottom: 30px;
     font-size: 16px;
  }
 
+#bio_info {
+  margin-top: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+#bio_info p {
+  font-size: 14px;
+  line-height: 1.65em;
+}
 
 
 
